@@ -1,0 +1,54 @@
+
+/*generic*/
+.flex{display:flex;}
+.flex-center-hori{display: flex; justify-content: center;}
+.flex-center{display:flex; justify-content: center; align-items: center;}
+.flex-column{flex-direction: column;}
+.font-main{font-family: Arial, Helvetica, sans-serif;}
+.font18{font-size: 18px;}
+.font14{font-size: 14px;}
+.font12{font-size: 12px;}
+
+
+/*main*/
+html{height: 100%;}
+body{background-image: url('../images/bg.jpg'); background-size: 100% 100%; height: 100%; background-repeat: no-repeat;}
+
+/* left side */
+.main{height: 100%;}
+.box-main{border: 1px solid #9f556f; width: 45%; height: 35%; box-shadow: -9px 9px 11px rgba(0, 0, 0, 0.35); }
+.box-main-left{border-right: 1px solid rgba(159, 85, 111,0.5); border-right-style: dashed; width: 30%; height: 100%;}
+.box-main-left-pic{width: 100%; height: 60%;}
+.box-main-left-pic img{height: 85%; width:60%; border-radius: 50%; border:4px solid #afd4c7;}
+.box-main-left-title-name{margin:0; margin-top: 1.5rem; font-weight: 100; color: #9f556f;}
+.box-main-left-title-profission{color:#767474; margin-top: 9px;}
+
+/* right side */
+.box-main-right{ width: 70%; justify-content: space-around;}
+.box-main-right-text{width: 70%; height: auto; text-align: center; color:#767474; }
+.box-main-right-social{width: 100%;}
+.box-main-right-social-icon {padding:1rem; color:#9f556f; cursor: pointer}
+.face:hover{color:#4267B2;}
+.link:hover{color:#0077B5;}
+.twitter:hover{color:#1DA1F2;}
+.git:hover{color:#4F287A;}
+.mail:hover{color:red;}
+
+/* skills */
+.box-main-skills{position: absolute; width: 12.5%; height: 35%; background-color:rgba(159, 85, 111,0.9); opacity: 0; padding-left: 1rem;}
+.box-main-skills:hover{transition: .8s; opacity: 1; cursor: pointer;}
+.box-main-skills-title{margin:.6rem 0 .3rem 0; color: #ffff; font-family: 'Poppins', sans-serif;}
+.box-main-skills-html-block{width: 90%; height:.5rem; background-color: #00ffff; border-radius: 3px; margin-bottom:1rem;}
+.box-main-skills-css-block{width: 85%; height:.5rem; background-color: #fef271; border-radius: 3px; margin-bottom:1rem;}
+.box-main-skills-js-block{width: 80%; height:.5rem; background-color: #530f5c; border-radius: 3px; margin-bottom:1rem;}
+.box-main-skills-php-block{width: 60%; height:.5rem; background-color:  #5bbb54; border-radius: 3px; margin-bottom:1rem;}
+
+
+/* medias */
+
+@media (max-width: 1024px) 
+{
+  .box-main-left-pic img{height: 80%; width: 80%;}
+  .box-main-left-title-name{text-align: center;}
+
+}
